@@ -1,0 +1,361 @@
+*, html {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: 500;
+	font-family: 'Ronduit Capitals', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: #000405;
+	background-image: url("../images/stardust.png");
+}
+
+img.company_logo {
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+}
+
+.text, p {
+	font-weight: 300;
+	font-family: 'Comfortaa', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	color: rgb(245,245,245);
+}
+
+.alert-warning {
+	display: none;
+}
+
+.alert-warning, .alert-warning span {
+	color: black!important;
+	font-family: 'Comfortaa', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.alert-warning a {
+	font-family: 'Comfortaa', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.navbar-brand {	
+	padding-top: .5rem!important;
+}
+
+nav div#dropdown-menu {
+	right: 0;
+	left: auto;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+	background-color: #d0d0d0!important;
+}
+
+nav .dropdown i {
+	color: rgba(255,255,255,.5);
+}
+
+nav .dropdown-toggle::after {
+	content: none!important;
+}
+
+main {
+	background-color: #000405;
+	background-image: url("../images/stardust.png");
+}
+
+.home video.bgc {
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.home .hero {
+	display: inline-block;
+	position: absolute;
+	margin-top: 20vh;
+	margin-left: 80vh;
+	z-index: 200;
+}
+
+.home .hero h1 {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+div#section-highlights, div#highlights {
+	width: 150%;
+	margin-top: 7vh;
+}
+
+div#section-highlights div.row {
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+
+div#section-highlights span.number, div#highlights span.number {
+	font-size: 300%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div#section-highlights span.item, div#highlights span.item {
+	font-size: 110%;
+	padding-left: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div#section-mosaic {
+	margin-top: 3rem;
+}
+
+div#section-mosaic a[href="''"] {
+	cursor: default!important;
+}
+
+div#section-mosaic a {
+	line-height: 30px!important;
+}
+
+div#section-mosaic p.card-text small {
+	text-align: center;
+}
+
+section {
+	width: 100%;
+	min-height: 100%;
+}
+
+section {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #000405;
+	background-image: url("../images/stardust.png");
+}
+
+section#menu div.menu-items-wrapper {
+	border-radius: 16px;
+	background-color: rgba(75,75,75,.2);
+	padding: 2rem 1rem;
+}
+
+section#menu div.menu-item {
+	cursor: pointer;
+	display: inline-block;
+}
+
+section#menu div.menu-item:hover {
+	background-color: rgba(100,100,100,.5);
+}
+
+section#menu a {
+	color: white!important;
+	font-size: 120%;
+	line-height: 50px;
+}
+
+section#menu a:hover {
+	text-decoration: none;
+}
+
+section#menu div.img-wrapper {
+	background-color: white;
+	border-radius: 16px;
+	padding: 20px;
+	border: solid 1px #ddd;
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section#menu div.span-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+section#menu nav img {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+section#menu img {
+	display: inline;
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
+nav.section-title {
+	width: 50%;
+	margin: 1rem auto 3rem auto;
+}
+
+nav.section-title div.section-img-wrapper {
+	background-color: white;
+	border-radius: 16px;
+	padding: 8px;
+	border: solid 1px #ddd;
+	text-align: center;
+	width: 8%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav.section-title div.section-quote-wrapper {
+	margin-top: 4rem;
+	line-height: 1.2rem;
+	width: 100%;
+}
+
+nav.section-title div.section-quote-wrapper h3.quote {
+	font-style: italic;
+	color: rgba(200,200,200,.9);
+}
+
+nav.section-title div.section-quote-wrapper h4.author {
+	margin-top: 2rem;
+	color: rgba(200,200,200,.9);
+}
+
+nav.section-title img {
+	width: 100%;
+	height: 100%;
+}
+
+section#subsection div.subsection-heading {
+	margin-top: 3rem;
+}
+
+section#subsection div.subsection-img-wrapper {
+	background-color: white;
+	border-radius: 16px;
+	padding: 12px;
+	border: solid 1px #ddd;
+	text-align: center;
+	width: 7%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section#subsection div.subsection-img-wrapper img {
+	width: 100%;
+	height: 100%;
+}
+
+section#subsection div.subsection-body {
+	margin-top: 4rem;
+	border-radius: 16px;
+	background-color: rgba(0,8,9,.5);
+	padding: 3rem 2rem;
+}
+
+section#subsection div.subsection-body p {
+	font-size: 1.5em;
+	line-height: 40px;
+	margin-bottom: 1.5rem;
+}
+
+section#subsection div.subsection-body p:last-child {
+	margin-bottom: 0!important;
+}
+
+section#subsection div.subsection-body a {
+	color: #46bcde;
+}
+
+section#subsection div.subsection-body a:hover, section#subsection div.subsection-body a:active {
+	color: #9cdcee;
+}
+
+section#subsection div.subsection-links {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+section#subsection div.subsection-links .hidden1, section#subsection div.subsection-links .hidden2, section#subsection div.subsection-links .hidden3 {
+	display: none;
+} 
+
+section#subsection div.subsection-links a {
+	font-family: 'Comfortaa', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+section#subsection div.subsection-gallery {
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+}
+
+section#subsection div.subsection-gallery div.card img {
+	height: 14rem;
+	padding: 1rem;
+	object-fit: contain;
+}
+
+section#subsection div.subsection-gallery div.card:hover {
+	cursor: pointer;
+}
+
+section#subsection div#gallery-modal .modal-dialog {
+	min-width: 50%!important;
+	height: 5rem;
+}
+
+section#subsection div#gallery-modal .carousel-caption {
+	background-color: rgba(20,23,25,.6);
+	padding-top: 8px;
+}
+
+section#subsection div#gallery-modal img {
+	width: 100%;
+	height: 100%;
+	padding: 15%;
+	padding-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section#subsection div#gallery-modal .carousel-control-prev, section#subsection div#gallery-modal .carousel-control-next {
+	width: 5%;
+}
+
+footer {
+	color: white!important;
+}
+
+footer a {
+	color:white!important;
+	text-decoration: none!important;
+}
+
+footer a:hover {
+	text-decoration: underline!important;
+}
+
+footer div#media {
+	font-size: 2.2rem;
+}
+
+footer div#media a {
+	cursor: pointer;
+}
+
+footer div#media a i {
+	text-align: center;
+}
+
+footer div#media a:hover i {
+	color: rgba(255,255,255,.75);
+}

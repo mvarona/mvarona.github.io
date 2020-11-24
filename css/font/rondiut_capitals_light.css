@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Ronduit Capitals';
+    src: url('RonduitCapitals-Light.eot');
+    src: url('RonduitCapitals-Light.eot?#iefix') format('embedded-opentype'),
+        url('RonduitCapitals-Light.woff2') format('woff2'),
+        url('RonduitCapitals-Light.woff') format('woff'),
+        url('RonduitCapitals-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
