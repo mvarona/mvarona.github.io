@@ -13,7 +13,7 @@
 html, body {
 	width: 100%;
 	height: 100%;
-	background-color: #000405;
+	background-color: #000405!important;
 	background-image: url("../images/stardust.png");
 }
 
