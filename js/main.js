@@ -84,7 +84,6 @@ function renderSkillsChart(){
 	                	beginAtZero: true,
 	                    callback: function(value, index, values) {
 	                    	let lan = document.getElementsByTagName('html')[0].getAttribute('lang');
-	                    	console.log("lan " + lan);
 	                    	if (value == 0) {
 	                    		return skillsLevelsStrings["insufficient_" + lan];
 	                    	} else if (value == 50){
@@ -115,7 +114,7 @@ function renderSkillsChart(){
 
 			      Chart.helpers.each(meta.data.forEach((bar, index) => {
 			        const label = this.data.labels[index];
-			        const labelPositionX = 50;
+			        const labelPositionX = 90;
 			        const labelWidth = ctx.measureText(label).width + labelPositionX;
 
 			        ctx.textBaseline = 'middle';

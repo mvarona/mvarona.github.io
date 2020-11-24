@@ -16,7 +16,7 @@
 		font-size: 60%!important;
 	}
 
-	nav.section-title div.section-img-wrapper {
+	nav.section-title div.section-img-wrapper, section#subsection div.subsection-img-wrapper {
 		width: 10%;
 	}
 
@@ -37,7 +37,7 @@
 		width: 100%!important;
 	}
 
-	nav.section-title div.section-img-wrapper {
+	nav.section-title div.section-img-wrapper, section#subsection div.subsection-img-wrapper {
 		width: 12%;
 		margin-left: -10%!important;
 	}
@@ -114,12 +114,45 @@
 		margin-left: -20%!important;
 	}
 
+	section#subsection div.subsection-img-wrapper {
+		width: 15%;
+		margin-left: -10%!important;
+	}
+
+	.card-columns {
+		-webkit-column-count: 2!important;
+		-moz-column-count: 2!important;
+		column-count: 2!important;
+	}
+
+}
+
+@media only screen and (max-width: 620px) {
+
+	h1 {
+		font-size: 1.5rem!important;
+	}
+
+	h2 {
+		font-size: 1.4rem!important;
+	}
+
+	.card-columns {
+		-webkit-column-count: 1!important;
+		-moz-column-count: 1!important;
+		column-count: 1!important;
+	}
+
 }
 
 @media only screen and (max-width: 550px) {
 
+	h1 {
+		font-size: 1.2rem!important;
+	}
+
 	h2 {
-		font-size: 1.3rem!important;
+		font-size: 1.1rem!important;
 	}
 	
 	.navbar-brand {
@@ -137,6 +170,11 @@
 	nav.section-title div.section-img-wrapper {
 		width: 20%;
 		margin-left: -50%!important;
+	}
+
+	section#subsection div.subsection-img-wrapper {
+		width: 20%;
+		margin-left: -30%!important;
 	}
 
 }
