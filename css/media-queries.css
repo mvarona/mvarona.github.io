@@ -16,6 +16,10 @@
 		font-size: 60%!important;
 	}
 
+	nav.section-title div.section-img-wrapper {
+		width: 10%;
+	}
+
 }
 
 @media only screen and (max-width: 1100px) {
@@ -31,6 +35,11 @@
 
 	div#highlights {
 		width: 100%!important;
+	}
+
+	nav.section-title div.section-img-wrapper {
+		width: 12%;
+		margin-left: -10%!important;
 	}
 
 }
@@ -61,7 +70,7 @@
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 950px) {
 	
 	.home .hero {
 		position: relative!important;
@@ -96,9 +105,22 @@
 		max-width: 41.666667%!important;
 	}
 
+	nav .navbar-collapse {
+		margin-left: 15%;
+	}
+
+	nav.section-title div.section-img-wrapper {
+		width: 15%;
+		margin-left: -20%!important;
+	}
+
 }
 
 @media only screen and (max-width: 550px) {
+
+	h2 {
+		font-size: 1.3rem!important;
+	}
 	
 	.navbar-brand {
 		font-size: .5rem!important;
@@ -108,13 +130,36 @@
 		margin-left: -20px!important;
 	}
 
+	nav .navbar-collapse {
+		margin-left: 8%;
+	}
+
+	nav.section-title div.section-img-wrapper {
+		width: 20%;
+		margin-left: -50%!important;
+	}
+
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
 	
 	.navbar-expand .navbar-nav .nav-link {
 		padding-right: .7rem!important;
 		padding-left: 0!important;
+	}
+
+	img.company_logo {
+		width: 30px;
+		height: 30px;
+	}
+
+	nav .navbar-collapse {
+		margin-left: 2%;
+	}
+
+	nav.section-title div.section-img-wrapper {
+		width: 25%;
+		margin-left: -70%!important;
 	}
 
 }
