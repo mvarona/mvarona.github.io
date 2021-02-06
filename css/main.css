@@ -335,6 +335,45 @@ section#subsection div#gallery-modal .carousel-control-prev, section#subsection 
 	width: 5%;
 }
 
+section.error-landing img.img-404 {
+	border-radius: 100%;
+	padding: .3rem;
+	background-color: #ffffff;
+}
+
+section.error-landing .error-title {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+}
+
+section.error-landing .error-subtitle {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+
+section.error-landing .error-desc {
+	margin-bottom: 2rem;
+	font-size: 1rem;
+}
+
+section.error-landing .error-btn-primary {
+	background-color: #ffffff;
+	font-size: 1.2rem;
+	padding: .6rem;
+	text-decoration: none;
+}
+
+section.error-landing .error-btn-primary:hover, section.error-landing .error-btn-primary:active {
+	background-color: #e6e6e6;
+	text-decoration: none;
+}
+
+section.error-landing .error-btn-primary a {
+	color: black!important;
+	font-weight: 800;
+	text-decoration: none;
+}
+
 footer {
 	color: white!important;
 }
