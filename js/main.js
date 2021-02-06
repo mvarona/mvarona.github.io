@@ -174,7 +174,7 @@ function animateNumbers(){
 	runAnimations();
 }
 
-function detectLanguageURL(){
+function detectLanguage(){
 	let userLang = navigator.language || navigator.userLanguage;
 
 	var enURL;
