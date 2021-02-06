@@ -288,6 +288,7 @@ function render404Page(){
 		document.getElementById('privacy').innerHTML = translations['privacy_' + detectedLan];
 		document.getElementById('tos').innerHTML = translations['tos_' + detectedLan];
 		document.getElementById('icons_cortesy').innerHTML = translations['icons_cortesy_' + detectedLan];
+		document.getElementById('cv-download').href = "https://www.mariovarona.dev/Mario%20Varona%20-%20Curriculum%20Vitae_" + detectedLan + ".pdf";
 	}
 }
 
