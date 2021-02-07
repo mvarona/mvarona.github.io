@@ -5,5 +5,4 @@ Disallow: /Mario Varona - Curriculum Vitae_de.pdf
 Disallow: /Mario Varona - Curriculum Vitae_de.pdf
 Disallow: /privacy.html
 Disallow: /tos.html
-Disallow: /Un salmantino de 16 años crea la primera aplicación móvil para el transporte metropolitano - salamanca24horas.pdf
-Disallow: /Un salmantino de 16 a%C3%B1os crea la primera aplicaci%C3%B3n m%C3%B3vil para el transporte metropolitano - salamanca24horas.pdf
+Disallow: /BMS_salamanca24horas_17-12-2015.pdf
