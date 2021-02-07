@@ -153,6 +153,19 @@ section#menu div.menu-items-wrapper {
 	padding: 2rem 1rem;
 }
 
+section#menu div.featured span#featured-span, section#menu span#all-span {
+	position: absolute;
+	margin-top: -1rem;
+}
+
+section#menu div.featured {
+	padding-bottom: 1rem;
+}
+
+section#menu div.featured hr {
+	border-top: 1px solid rgba(255,255,255,.3)!important;
+}
+
 section#menu div.menu-item {
 	cursor: pointer;
 	display: inline-block;
@@ -277,10 +290,10 @@ section#subsection div.subsection-body p:last-child {
 }
 
 section#subsection div.subsection-body a {
-	color: #46bcde;
+	color: #00d3ff;
 }
 
-section#subsection div.subsection-body a:hover, section#subsection div.subsection-body a:active {
+section#subsection div.subsection-body a:hover, section#subsection div.subsection-body a:active, section#subsection div.subsection-body a:focus {
 	color: #9cdcee;
 }
 
