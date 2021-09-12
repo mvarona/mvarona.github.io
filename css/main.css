@@ -6,6 +6,10 @@
 	font-family: 'Ronduit Capitals', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
+.freeprivacypolicy-com---nb-headline {
+	position: fixed!important;
+}
+
 #CybotCookiebotDialogBodyContentText {
 	color: black;
 }
