@@ -1,8 +1,14 @@
 User-agent: *
 Disallow: /CNAME
+Disallow: /Mario Varona - Curriculum Vitae_en.pdf
+Disallow: /Mario Varona - Curriculum Vitae_es.pdf
 Disallow: /Mario Varona - Curriculum Vitae_de.pdf
-Disallow: /Mario Varona - Curriculum Vitae_de.pdf
-Disallow: /Mario Varona - Curriculum Vitae_de.pdf
+Disallow: /Mario%20Varona%20-%20Curriculum%20Vitae_en.pdf
+Disallow: /Mario%20Varona%20-%20Curriculum%20Vitae_es.pdf
+Disallow: /Mario%20Varona%20-%20Curriculum%20Vitae_de.pdf
 Disallow: /privacy.html
 Disallow: /tos.html
 Disallow: /BMS_salamanca24horas_17-12-2015.pdf
+Disallow: /BusPlus_tribunauniversitaria_21-06-2021.pdf
+Disallow: /Student%20Record.pdf
+Disallow: /Student Record.pdf
