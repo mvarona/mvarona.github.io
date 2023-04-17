@@ -293,6 +293,10 @@ section#subsection div.subsection-body p:last-child {
 	margin-bottom: 0!important;
 }
 
+.subsection-body hr {
+	border-top: 1px solid rgba(255,255,255,.2)!important;
+}
+
 section#subsection div.subsection-body a {
 	color: #00d3ff;
 }
