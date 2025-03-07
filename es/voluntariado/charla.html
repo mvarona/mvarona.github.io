@@ -114,7 +114,68 @@
 		
 		
 
-		
+		<div class="subsection-gallery w-75 ml-auto mr-auto text-center">
+
+	<h1 class="text-left pl-5 ml-3 mb-4">Galería</h1>
+	
+	<div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(0)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/clean_poster.jpg" alt="Cartel de Charla de Clean Code">
+</div><div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(1)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/clean_talk_1.jpg" alt="Charla de Clean Code en la Universidad I">
+</div><div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(2)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/clean_talk_2.jpg" alt="Charla de Clean Code en la Universidad II">
+</div>
+
+</div>
+
+<div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="Galería" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content bg-dark">
+		  	<div class="modal-header">
+				<h5 class="modal-title">Galería</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="$close_string">
+					<span aria-hidden="true">X</span>
+				</button>
+		  	</div>
+		  	<div class="modal-body">
+				<div id="gallery-carousel-indicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#gallery-carousel-indicators" data-slide-to="$gallery_img_index" class="active"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+	<img src="https://www.mariovarona.dev/images/volunteering/clean_poster.jpg" alt="Cartel de Charla de Clean Code">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Cartel de Charla de Clean Code</h5>
+		<p></p>
+	</div>
+</div><div class="carousel-item $active">
+	<img src="https://www.mariovarona.dev/images/volunteering/clean_talk_1.jpg" alt="Charla de Clean Code en la Universidad I">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Charla de Clean Code en la Universidad I</h5>
+		<p></p>
+	</div>
+</div><div class="carousel-item $active">
+	<img src="https://www.mariovarona.dev/images/volunteering/clean_talk_2.jpg" alt="Charla de Clean Code en la Universidad II">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Charla de Clean Code en la Universidad II</h5>
+		<p></p>
+	</div>
+</div>
+					</div>
+					<a class="carousel-control-prev" href="#gallery-carousel-indicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a class="carousel-control-next" href="#gallery-carousel-indicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 	</section>
 

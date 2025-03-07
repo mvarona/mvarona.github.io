@@ -114,7 +114,100 @@
 		
 		
 
-		
+		<div class="subsection-gallery w-75 ml-auto mr-auto text-center">
+
+	<h1 class="text-left pl-5 ml-3 mb-4">Galería</h1>
+	
+	<div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(0)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/dana_1.jpg" alt="Ayuda a municipios afectados por DANA I">
+</div><div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(1)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/dana_2.png" alt="Ayuda a municipios afectados por DANA II">
+</div><div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(2)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/dana_3.png" alt="Ayuda a municipios afectados por DANA III">
+</div><div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(3)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/dana_4.jpg" alt="Ayuda a municipios afectados por DANA IV">
+</div><div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(4)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/dana_5.png" alt="Ayuda a municipios afectados por DANA V">
+</div><div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(5)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/dana_6.png" alt="Ayuda a municipios afectados por DANA VI">
+</div><div class="card col-3 mr-3 mb-3 d-inline-block" onclick="loadGalleryItem(6)" data-toggle="modal" data-target="#gallery-modal">
+	<img class="card-img-top" src="https://www.mariovarona.dev/images/volunteering/dana_7.png" alt="Ayuda a municipios afectados por DANA VII">
+</div>
+
+</div>
+
+<div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="Galería" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content bg-dark">
+		  	<div class="modal-header">
+				<h5 class="modal-title">Galería</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="$close_string">
+					<span aria-hidden="true">X</span>
+				</button>
+		  	</div>
+		  	<div class="modal-body">
+				<div id="gallery-carousel-indicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#gallery-carousel-indicators" data-slide-to="$gallery_img_index" class="active"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+	<img src="https://www.mariovarona.dev/images/volunteering/dana_1.jpg" alt="Ayuda a municipios afectados por DANA I">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Ayuda a municipios afectados por DANA I</h5>
+		<p>Catarroja</p>
+	</div>
+</div><div class="carousel-item $active">
+	<img src="https://www.mariovarona.dev/images/volunteering/dana_2.png" alt="Ayuda a municipios afectados por DANA II">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Ayuda a municipios afectados por DANA II</h5>
+		<p>Catarroja, La Sexta Noticias</p>
+	</div>
+</div><div class="carousel-item $active">
+	<img src="https://www.mariovarona.dev/images/volunteering/dana_3.png" alt="Ayuda a municipios afectados por DANA III">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Ayuda a municipios afectados por DANA III</h5>
+		<p>Catarroja, Aragón TV</p>
+	</div>
+</div><div class="carousel-item $active">
+	<img src="https://www.mariovarona.dev/images/volunteering/dana_4.jpg" alt="Ayuda a municipios afectados por DANA IV">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Ayuda a municipios afectados por DANA IV</h5>
+		<p>Catarroja</p>
+	</div>
+</div><div class="carousel-item $active">
+	<img src="https://www.mariovarona.dev/images/volunteering/dana_5.png" alt="Ayuda a municipios afectados por DANA V">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Ayuda a municipios afectados por DANA V</h5>
+		<p>Alfafar, World Central Kitchen</p>
+	</div>
+</div><div class="carousel-item $active">
+	<img src="https://www.mariovarona.dev/images/volunteering/dana_6.png" alt="Ayuda a municipios afectados por DANA VI">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Ayuda a municipios afectados por DANA VI</h5>
+		<p>Grupo de Voluntarios - Día 1</p>
+	</div>
+</div><div class="carousel-item $active">
+	<img src="https://www.mariovarona.dev/images/volunteering/dana_7.png" alt="Ayuda a municipios afectados por DANA VII">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Ayuda a municipios afectados por DANA VII</h5>
+		<p>Grupo de Voluntarios - Día 2</p>
+	</div>
+</div>
+					</div>
+					<a class="carousel-control-prev" href="#gallery-carousel-indicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a class="carousel-control-next" href="#gallery-carousel-indicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 	</section>
 
